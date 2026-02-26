@@ -44,5 +44,5 @@ fn main() {
             println!("{}  {}", result.green().bold(), a.to_string().blue().bold());
             thread::sleep(time::Duration::from_millis(500));
         }
-    }
-}
+    }//end loop
+}// end main
